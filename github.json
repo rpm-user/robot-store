@@ -1,0 +1,55 @@
+{
+	"id": "GitHub-test",
+	"name": "GitHub Test 1.0",
+	"description": "Testing hook.io plugin",
+	"version": "1.0",
+	"discoveryUrl": null,
+	"endpointTemplate": {
+		"name": "GitHub repo",
+		"description": "GitHub repo endpoint",
+		"serviceType": "ENDPOINT",
+        "endPointType": "GitHub repo",
+        "url": null,
+		"parameters": [{
+			"name": "authorization",
+			"displayName": "Authorization",
+			"type": "string",
+			"isOptional": false,
+			"defaultValue": null
+		}]
+	},
+	"services": [{
+		"name": "Update Github issue state",
+		"description": null,
+		"serviceType": "TASK",
+		"url": "https://hook.io/rpm-user/github-issues",
+		"parameters": [{
+			"name": "user",
+      "displayName": "GitHub User",
+      "type": "string",
+			"isOptional": false,
+			"defaultValue": null
+		},
+		{
+			"name": "repository",
+      "displayName": "Repository name",
+			"type": "string",
+			"isOptional": false,
+			"defaultValue": "GET"
+		},
+		{
+			"name": "issueId",
+      "displayName": "Issue id",
+			"type": "string",
+			"isOptional": false,
+			"defaultValue": null
+		},
+		{
+			"name": "issueStatus",
+      "displayName": "Issue status",
+			"type": "string",
+			"isOptional": false,
+			"defaultValue": "close"
+		}]
+	}]
+}
