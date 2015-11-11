@@ -8,8 +8,8 @@
 		"name": "GitHub repo",
 		"description": "GitHub repo endpoint",
 		"serviceType": "ENDPOINT",
-        "endPointType": "GitHub repo",
-        "url": null,
+		"endPointType": "GitHub repo",
+		"url": null,
 		"parameters": [{
 			"name": "authorization",
 			"displayName": "Authorization",
@@ -25,28 +25,28 @@
 		"url": "https://hook.io/rpm-user/github-issues",
 		"parameters": [{
 			"name": "user",
-      "displayName": "GitHub User",
-      "type": "string",
+			"displayName": "GitHub User",
+			"type": "string",
 			"isOptional": false,
 			"defaultValue": null
 		},
 		{
 			"name": "repository",
-      "displayName": "Repository name",
+			"displayName": "Repository name",
 			"type": "string",
 			"isOptional": false,
 			"defaultValue": "GET"
 		},
 		{
 			"name": "issueId",
-      "displayName": "Issue id",
+			"displayName": "Issue id",
 			"type": "string",
 			"isOptional": false,
 			"defaultValue": null
 		},
 		{
 			"name": "issueStatus",
-      "displayName": "Issue status",
+			"displayName": "Issue status",
 			"type": "string",
 			"isOptional": false,
 			"defaultValue": "close"
