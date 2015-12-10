@@ -4,4 +4,5 @@
 Buy a robot!
 
 [Plugin in manifest](http://rpm-user.github.io/robot-store/github.json)
+
 [hook.io cdd plugin](https://hook.io/rpm-user/github-issues/source)
