@@ -46,7 +46,7 @@
 		},
 		{
 			"name": "issueStatus",
-			"displayName": "Issue status",
+			"displayName": "Issue status (closed/open)",
 			"type": "string",
 			"isOptional": false,
 			"defaultValue": "close"
