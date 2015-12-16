@@ -1,4 +1,4 @@
-# robot-store
+# robot-store demo GitHub project
 - The robot store git repository was built to help demo rapid plugin development for CA CDD using http://hook.io and GitHub.
 - The demo includes a small CDD GitHub plugin which adds an "Update Github issue state" task. The task can be used to close/open issues on github.com (i.e. issues in this project).
 - The plugin manifest is served by github pages at this url - http://rpm-user.github.io/robot-store/github.json. Use it to register the plugin in CDD. (Changes to the manifest should be done at this [link](https://github.com/rpm-user/robot-store/blob/gh-pages/github.json))
