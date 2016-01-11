@@ -1,5 +1,5 @@
 # CDD GitHub plugin demo
-- The rsmall demo was built as an example for rapid CDD plugin development using [hook.io](http://hook.io/docs).
+- This small demo was built as an example for rapid CDD plugin development using [hook.io](http://hook.io/docs).
 - The demo includes a small CDD GitHub plugin which adds an "Update Github issue state" task. The task can be used to close/open issues on github.com (i.e. issues in this project).
 - The plugin manifest is served by github pages at this url - http://rpm-user.github.io/robot-store/github.json. Use it to register the plugin in CDD. (Changes to the manifest should be done at this [link](github.json) on the gh-pages branch)
 - This "Update Github issue state" task logic is being served by a webhook handler implemented in hook.io. The handler listen to http POST requests to the following url: `https://hook.io/rpm-user/github-issues` and uses GitHub rest api to update the issue.
