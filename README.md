@@ -1,9 +1,9 @@
 # robot-store demo GitHub project
-- The robot store git repository was built to help demo rapid plugin development for CA CDD using http://hook.io and GitHub.
+- The robot store git repository was built to help demo rapid plugin development for CA CDD using [hook.io](http://hook.io/docs) and GitHub.
 - The demo includes a small CDD GitHub plugin which adds an "Update Github issue state" task. The task can be used to close/open issues on github.com (i.e. issues in this project).
-- The plugin manifest is served by github pages at this url - http://rpm-user.github.io/robot-store/github.json. Use it to register the plugin in CDD. (Changes to the manifest should be done at this [link](https://github.com/rpm-user/robot-store/blob/gh-pages/github.json))
-- This "Update Github issue state" task logic is being served by a webhook handler implemented in hook.io. The handler listen to http POST requests at https://hook.io/rpm-user/github-issues and uses GitHub rest api to update the issue.
-- You can use [this issue](https://github.com/rpm-user/robot-store/issues/1) to test the plugin task, by using the following inputs for the task:
+- The plugin manifest is served by github pages at this url - http://rpm-user.github.io/robot-store/github.json. Use it to register the plugin in CDD. (Changes to the manifest should be done at this [link](github.json) on the gh-pages branch)
+- This "Update Github issue state" task logic is being served by a webhook handler implemented in hook.io. The handler listen to http POST requests to the following url: `https://hook.io/rpm-user/github-issues` and uses GitHub rest api to update the issue.
+- You can use [this GitHub issue](https://github.com/rpm-user/robot-store/issues/1) to test the plugin task, by using the following inputs for the task:
   - GitHub user: rpm-user
   - Repository name: robot-store
   - Issue id: 1
@@ -12,5 +12,3 @@
 - The logs of the plugin execution can be viewed [here ](https://hook.io/rpm-user/github-issues/logs).
 
 ![](https://cloud.githubusercontent.com/assets/14964166/10423929/7f60f950-70d3-11e5-9312-2af20a5956cf.png)
-
-Buy a robot!
