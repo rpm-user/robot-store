@@ -4,10 +4,13 @@
 - The plugin manifest is served by github pages at this url - http://rpm-user.github.io/robot-store/github.json. Use it to register the plugin in CDD. (Changes to the manifest should be done at this [link](github.json) on the gh-pages branch)
 - This "Update Github issue state" task logic is being served by a webhook handler implemented in hook.io. The handler listen to http POST requests to the following url: `https://hook.io/rpm-user/github-issues` and uses GitHub rest api to update the issue.
 - You can use [this GitHub issue](https://github.com/rpm-user/robot-store/issues/1) to test the plugin task, by using the following inputs for the task:
-  - GitHub user: rpm-user
-  - Repository name: robot-store
-  - Issue id: 1
-  - Issue status (closed/open): closed
+  - Endpoint properties
+    - GitHub user: rpm-user
+    - Repository name: robot-store
+    - Authorization: f5465b83cda634e83464452e179082b6b593ed10
+  - Task properties
+    - Issue id: 1
+    - Issue status (closed/open): closed
 - The code executed by the plugin (on hook.io) can be viewed [here ](https://hook.io/rpm-user/github-issues/source).
 - The logs of the plugin execution can be viewed [here ](https://hook.io/rpm-user/github-issues/logs).
 
