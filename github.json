@@ -56,7 +56,11 @@
 			"displayName": "Issue status (closed/open)",
 			"type": "string",
 			"isOptional": false,
-			"defaultValue": "close"
+			"defaultValue": "closed",
+			"possibleValues": [
+		  		"closed",
+		  		"open"
+			]
 		}]
 	}]
 }
