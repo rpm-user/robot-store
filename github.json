@@ -59,10 +59,8 @@
 			"type": "string",
 			"isOptional": false,
 			"defaultValue": "closed",
-			"possibleValues": [
-		  		"closed",
-		  		"open"
-			]
+			"possibleValues": ["closed",
+			"open"]
 		}]
 	}]
 }
