@@ -1,2 +1,2 @@
 # robot-store
-Buy a robot!
+gh-pages
