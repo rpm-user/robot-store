@@ -11,7 +11,7 @@
   - Task properties
     - Issue id: 1
     - Issue status (closed/open): closed
-- The code executed by the plugin (on hook.io) can be viewed [here ](https://hook.io/rpm-user/github-issues/source).
+- The code executed by the plugin (on hook.io) can be viewed [here ](https://hook.io/rpm-user/github-issues/source). [(static copy)](github_plugin_hook_1_0.js)
 - The logs of the plugin execution can be viewed [here ](https://hook.io/rpm-user/github-issues/logs).
 
 ![](https://cloud.githubusercontent.com/assets/14964166/10423929/7f60f950-70d3-11e5-9312-2af20a5956cf.png)
