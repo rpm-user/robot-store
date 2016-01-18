@@ -1,30 +1,21 @@
 {
-	"id": "GitHub-test",
 	"name": "GitHub Test 1.0",
+	"vendor": "ido",
+	"uniqueId": "ido.github.test",
 	"description": "Testing hook.io plugin",
+	"iconUrl": "https://cloud.githubusercontent.com/assets/14964166/12397368/7823d66e-be15-11e5-9b94-86673ff64912.png",
 	"version": "1.0",
-	"discoveryUrl": null,
+	"relativeUrl": false,
 	"endpointTemplate": {
-		"name": "GitHub repo",
-		"description": "GitHub repo endpoint",
+		"name": "GitHub repository",
+		"uniqueId": "ido.github.test.endpoint.repository",
+		"description": "GitHub repository endpoint",
 		"serviceType": "ENDPOINT",
 		"endPointType": "GitHub repo",
 		"url": null,
 		"parameters": [{
-			"name": "authorization",
-			"displayName": "Authorization",
-			"type": "string",
-			"isOptional": false,
-			"defaultValue": null
-		}]
-	},
-	"services": [{
-		"name": "Update Github issue state",
-		"description": null,
-		"serviceType": "TASK",
-		"url": "https://hook.io/rpm-user/github-issues",
-		"parameters": [{
 			"name": "user",
+			"uniqueId": "ido.github.test.task.update_issue.user",
 			"displayName": "GitHub User",
 			"type": "string",
 			"isOptional": false,
@@ -32,13 +23,30 @@
 		},
 		{
 			"name": "repository",
+			"uniqueId": "ido.github.test.task.update_issue.repository",
 			"displayName": "Repository name",
 			"type": "string",
 			"isOptional": false,
 			"defaultValue": "GET"
 		},
 		{
+			"name": "authorization",
+			"uniqueId": "ido.github.test.endpoint.repository.authorization",
+			"displayName": "Authorization",
+			"type": "password",
+			"isOptional": false,
+			"defaultValue": null
+		}]
+	},
+	"services": [{
+		"name": "Update Github issue state",
+		"uniqueId": "ido.github.test.task.update_issue",
+		"description": null,
+		"serviceType": "TASK",
+		"url": "https://hook.io/rpm-user/github-issues",
+		"parameters": [{
 			"name": "issueId",
+			"uniqueId": "ido.github.test.task.update_issue.issueId",
 			"displayName": "Issue id",
 			"type": "string",
 			"isOptional": false,
@@ -46,10 +54,15 @@
 		},
 		{
 			"name": "issueStatus",
-			"displayName": "Issue status",
+			"uniqueId": "ido.github.test.task.update_issue.issueStatus",
+			"displayName": "Issue status (closed/open)",
 			"type": "string",
 			"isOptional": false,
-			"defaultValue": "close"
+			"defaultValue": "closed",
+			"possibleValues": [
+		  		"closed",
+		  		"open"
+			]
 		}]
 	}]
 }
