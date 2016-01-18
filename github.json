@@ -23,7 +23,7 @@
 			"name": "repository",
 			"uniqueId": "ido.github.test.task.update_issue.repository",
 			"displayName": "Repository name",
-			"type": "string",
+			"type": "password",
 			"isOptional": false,
 			"defaultValue": "GET"
 		},
