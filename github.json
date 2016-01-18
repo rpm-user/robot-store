@@ -23,7 +23,7 @@
 			"name": "repository",
 			"uniqueId": "ido.github.test.task.update_issue.repository",
 			"displayName": "Repository name",
-			"type": "password",
+			"type": "string",
 			"isOptional": false,
 			"defaultValue": "GET"
 		},
@@ -31,7 +31,7 @@
 			"name": "authorization",
 			"uniqueId": "ido.github.test.endpoint.repository.authorization",
 			"displayName": "Authorization",
-			"type": "string",
+			"type": "password",
 			"isOptional": false,
 			"defaultValue": null
 		}]
