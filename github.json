@@ -4,7 +4,6 @@
 	"uniqueId": "ido.github.test",
 	"description": "Testing hook.io plugin",
 	"version": "1.0",
-	"discoveryUrl": null,
 	"endpointTemplate": {
 		"name": "GitHub repository",
 		"uniqueId": "ido.github.test.endpoint.repository",
