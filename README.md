@@ -7,7 +7,7 @@
   - Endpoint properties
     - GitHub user: rpm-user
     - Repository name: robot-store
-    - Authorization: f5465b83cda634e83464452e179082b6b593ed10
+    - Authorization: Trust me
   - Task properties
     - Issue id: 1
     - Issue status (closed/open): closed
