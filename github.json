@@ -25,16 +25,14 @@
 			"uniqueId": "ido.github.test.task.update_issue.repository",
 			"displayName": "Repository name",
 			"type": "string",
-			"isOptional": false,
-			"defaultValue": "GET"
+			"isOptional": false
 		},
 		{
 			"name": "authorization",
 			"uniqueId": "ido.github.test.endpoint.repository.authorization",
 			"displayName": "Authorization",
 			"type": "password",
-			"isOptional": false,
-			"defaultValue": null
+			"isOptional": false
 		}]
 	},
 	"services": [{
@@ -48,8 +46,7 @@
 			"uniqueId": "ido.github.test.task.update_issue.issueId",
 			"displayName": "Issue id",
 			"type": "string",
-			"isOptional": false,
-			"defaultValue": null
+			"isOptional": false
 		},
 		{
 			"name": "issueStatus",
