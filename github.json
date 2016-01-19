@@ -18,8 +18,7 @@
 			"uniqueId": "ido.github.test.task.update_issue.user",
 			"displayName": "GitHub User",
 			"type": "string",
-			"isOptional": false,
-			"defaultValue": null
+			"isOptional": false
 		},
 		{
 			"name": "repository",
