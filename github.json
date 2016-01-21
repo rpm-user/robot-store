@@ -3,7 +3,7 @@
 	"vendor": "ido",
 	"uniqueId": "ido.github.test",
 	"description": "Testing hook.io plugin",
-	"iconUrl": "https://49.media.tumblr.com/tumblr_lfp90xpDTm1qb9w8so1_250.gif",
+	"iconUrl": "https://cloud.githubusercontent.com/assets/14964166/12397368/7823d66e-be15-11e5-9b94-86673ff64912.png",
 	"version": "1.0",
 	"relativeUrl": false,
 	"endpointTemplate": {
