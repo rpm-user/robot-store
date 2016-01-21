@@ -27,7 +27,7 @@ module['exports'] = function changeGitHubIssueState (hook) {
         hook.res.end(JSON.stringify({
             'externalTaskExecutionStatus' : 'FINISHED',
             'executionContext' : {},
-            'taskState' : "Issue is "+newStatus,
+            'taskState' : "Issue #"+issueId+" is "+newStatus,
             'detailedInfo': "Issue number "+issueId+" state is now "+newStatus,
             'progress' : 100,
             'delayTillNextPoll' : 0
