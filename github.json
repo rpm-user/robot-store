@@ -17,30 +17,27 @@
 			"uniqueId": "ido.github.test.task.update_issue.user",
 			"displayName": "GitHub User",
 			"type": "string",
-			"isOptional": false,
-			"defaultValue": null
+			"isOptional": false
 		},
 		{
 			"name": "repository",
 			"uniqueId": "ido.github.test.task.update_issue.repository",
 			"displayName": "Repository name",
 			"type": "string",
-			"isOptional": false,
-			"defaultValue": "GET"
+			"isOptional": false
 		},
 		{
 			"name": "authorization",
 			"uniqueId": "ido.github.test.endpoint.repository.authorization",
 			"displayName": "Authorization",
 			"type": "password",
-			"isOptional": false,
-			"defaultValue": null
+			"isOptional": false
 		}]
 	},
 	"services": [{
 		"name": "Update Github issue state",
 		"uniqueId": "ido.github.test.task.update_issue",
-		"description": null,
+		"description": "Use this task to close and open GitHub issues (tickets)",
 		"serviceType": "TASK",
 		"url": "https://hook.io/rpm-user/github-issues",
 		"parameters": [{
@@ -48,8 +45,7 @@
 			"uniqueId": "ido.github.test.task.update_issue.issueId",
 			"displayName": "Issue id",
 			"type": "string",
-			"isOptional": false,
-			"defaultValue": null
+			"isOptional": false
 		},
 		{
 			"name": "issueStatus",
@@ -58,8 +54,10 @@
 			"type": "string",
 			"isOptional": false,
 			"defaultValue": "closed",
-			"possibleValues": ["closed",
-			"open"]
+			"possibleValues": [
+		  		"closed",
+		  		"open"
+			]
 		}]
 	}]
 }
