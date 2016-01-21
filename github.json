@@ -12,7 +12,6 @@
 		"description": "GitHub repository endpoint",
 		"serviceType": "ENDPOINT",
 		"endPointType": "GitHub repo",
-		"url": null,
 		"parameters": [{
 			"name": "user",
 			"uniqueId": "ido.github.test.task.update_issue.user",
